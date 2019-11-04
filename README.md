@@ -30,3 +30,13 @@ Installing
 ----------
 
 To install the plugin, build the project and copy the generated JMeterAMQP.jar file from target/dist to JMeter's lib/ext/ directory.
+
+
+Download
+----------
+
+#### AMQP Client
+https://drive.google.com/open?id=1EGBk8YpOXRsQsuuY8WSEpJleurE-lNwx
+
+#### AMQP Sampler
+https://drive.google.com/open?id=1VbHytobEj1hIDDfnJFYBVu3cMzRatxdo
