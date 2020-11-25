@@ -13,30 +13,18 @@ Prior to building or installing this JMeter plugin, ensure that the RabbitMQ cli
 Build Dependencies
 ------------------
 
-Build dependencies are managed by Ivy. JARs should automagically be downloaded by Ivy as part of the build process.
-
-In addition, you'll need to copy or symlink the following from JMeter's lib/ext directory:
-* ApacheJMeter_core.jar
+Build dependencies are managed by Maven.
 
 
 Building
 --------
 
 The project is built using Ant. To execute the build script, just execute:
-    ant
+`mvn clean package`
 
 
 Installing
 ----------
 
-To install the plugin, build the project and copy the generated JMeterAMQP.jar file from target/dist to JMeter's lib/ext/ directory.
+To install the plugin, build the project and copy the generated JMeter-Rabbit-AMQP-xxx.jar file from target/ to JMeter's lib/ext/ directory.
 
-
-Download
-----------
-
-#### AMQP Client
-https://drive.google.com/open?id=1EGBk8YpOXRsQsuuY8WSEpJleurE-lNwx
-
-#### AMQP Sampler
-https://drive.google.com/open?id=1VbHytobEj1hIDDfnJFYBVu3cMzRatxdo
