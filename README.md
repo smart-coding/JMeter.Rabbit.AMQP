@@ -19,7 +19,7 @@ Build dependencies are managed by Maven.
 Building
 --------
 
-The project is built using Ant. To execute the build script, just execute:
+The project is built using Maven. To execute the build script, just execute:
 `mvn clean package`
 
 
